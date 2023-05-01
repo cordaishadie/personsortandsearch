@@ -1,3 +1,5 @@
+// OUTPUT #1
+Today, you will be working with arrays of Person objects.
 How many Person objects would you like to generate?
 10
 Here are the people you generated:
@@ -46,3 +48,25 @@ The name Ryan Jones was found at index 9 in the array of Person objects.
 It took 0.0145 milliseconds to search for the name Ryan Jones in the array of Person objects using the O(n) linear search algorithm.
 The name Ryan Jones was found at index 8 in the array of Person objects.
 It took 0.0174 milliseconds to search for the name Ryan Jones in the array of Person objects using the binary search algorithm.
+
+
+
+// OUTPUT #2 (I commented out the print statements)
+How many Person objects would you like to generate?
+18357
+Here are the people you generated:
+
+Here is the array of Person objects sorted by name using the O(n^2) selection sort algorithm:
+It took 1466.5111 milliseconds to sort the array of Person objects by name using the O(n^2) selection sort algorithm.
+
+Here is the array of Person objects sorted by name using the O(log2n) quick sort algorithm:
+It took 103.5615 milliseconds to sort the array of Person objects by name using the O(log2n) quick sort algorithm.
+What name would you like to search for?
+First Name:
+Alex
+Last Name: 
+Brown
+The name Alex Brown was found at index 4 in the array of Person objects.
+It took 0.0135 milliseconds to search for the name Alex Brown in the array of Person objects using the linear search algorithm.
+The name Alex Brown was found at index 285 in the array of Person objects.
+It took 0.0235 milliseconds to search for the name Alex Brown in the array of Person objects using the binary search algorithm.
