@@ -1,0 +1,48 @@
+How many Person objects would you like to generate?
+10
+Here are the people you generated:
+First Name: Peyton, Last Name: Brown, Gender: woman, Age: 83, Height(inches): 58.0, Weight(lbs): 149.0
+First Name: Logan, Last Name: Johnson, Gender: woman, Age: 92, Height(inches): 61.0, Weight(lbs): 290.0
+First Name: Riley, Last Name: Brown, Gender: man, Age: 55, Height(inches): 50.0, Weight(lbs): 246.0
+First Name: Ryan, Last Name: Jones, Gender: man, Age: 75, Height(inches): 78.0, Weight(lbs): 249.0
+First Name: Avery, Last Name: Jones, Gender: woman, Age: 83, Height(inches): 80.0, Weight(lbs): 135.0
+First Name: Alex, Last Name: Brown, Gender: woman, Age: 39, Height(inches): 61.0, Weight(lbs): 294.0
+First Name: Riley, Last Name: Davis, Gender: man, Age: 98, Height(inches): 80.0, Weight(lbs): 207.0
+First Name: Riley, Last Name: Jones, Gender: woman, Age: 36, Height(inches): 61.0, Weight(lbs): 120.0
+First Name: Peyton, Last Name: Johnson, Gender: woman, Age: 29, Height(inches): 63.0, Weight(lbs): 113.0
+First Name: Alex, Last Name: Williams, Gender: man, Age: 38, Height(inches): 57.0, Weight(lbs): 156.0
+
+Here is the array of Person objects sorted by name using the O(n^2) selection sort algorithm:
+First Name: Alex, Last Name: Brown, Gender: woman, Age: 39, Height(inches): 61.0, Weight(lbs): 294.0
+First Name: Peyton, Last Name: Brown, Gender: woman, Age: 83, Height(inches): 58.0, Weight(lbs): 149.0
+First Name: Riley, Last Name: Brown, Gender: man, Age: 55, Height(inches): 50.0, Weight(lbs): 246.0
+First Name: Riley, Last Name: Davis, Gender: man, Age: 98, Height(inches): 80.0, Weight(lbs): 207.0
+First Name: Logan, Last Name: Johnson, Gender: woman, Age: 92, Height(inches): 61.0, Weight(lbs): 290.0
+First Name: Peyton, Last Name: Johnson, Gender: woman, Age: 29, Height(inches): 63.0, Weight(lbs): 113.0
+First Name: Avery, Last Name: Jones, Gender: woman, Age: 83, Height(inches): 80.0, Weight(lbs): 135.0
+First Name: Riley, Last Name: Jones, Gender: woman, Age: 36, Height(inches): 61.0, Weight(lbs): 120.0
+First Name: Ryan, Last Name: Jones, Gender: man, Age: 75, Height(inches): 78.0, Weight(lbs): 249.0
+First Name: Alex, Last Name: Williams, Gender: man, Age: 38, Height(inches): 57.0, Weight(lbs): 156.0
+It took 1.3059 milliseconds to sort the array of Person objects by name using the O(n^2) selection sort algorithm.
+
+Here is the array of Person objects sorted by name using the O(log2n) quick sort algorithm:
+First Name: Alex, Last Name: Brown, Gender: woman, Age: 39, Height(inches): 61.0, Weight(lbs): 294.0
+First Name: Peyton, Last Name: Brown, Gender: woman, Age: 83, Height(inches): 58.0, Weight(lbs): 149.0
+First Name: Riley, Last Name: Brown, Gender: man, Age: 55, Height(inches): 50.0, Weight(lbs): 246.0
+First Name: Riley, Last Name: Davis, Gender: man, Age: 98, Height(inches): 80.0, Weight(lbs): 207.0
+First Name: Logan, Last Name: Johnson, Gender: woman, Age: 92, Height(inches): 61.0, Weight(lbs): 290.0
+First Name: Peyton, Last Name: Johnson, Gender: woman, Age: 29, Height(inches): 63.0, Weight(lbs): 113.0
+First Name: Avery, Last Name: Jones, Gender: woman, Age: 83, Height(inches): 80.0, Weight(lbs): 135.0
+First Name: Riley, Last Name: Jones, Gender: woman, Age: 36, Height(inches): 61.0, Weight(lbs): 120.0
+First Name: Ryan, Last Name: Jones, Gender: man, Age: 75, Height(inches): 78.0, Weight(lbs): 249.0
+First Name: Alex, Last Name: Williams, Gender: man, Age: 38, Height(inches): 57.0, Weight(lbs): 156.0
+It took 0.0439 milliseconds to sort the array of Person objects by name using the O(log2n) quick sort algorithm.
+What name would you like to search for?
+First Name:
+Ryan
+Last Name: 
+Jones
+The name Ryan Jones was found at index 9 in the array of Person objects.
+It took 0.0145 milliseconds to search for the name Ryan Jones in the array of Person objects using the O(n) linear search algorithm.
+The name Ryan Jones was found at index 8 in the array of Person objects.
+It took 0.0174 milliseconds to search for the name Ryan Jones in the array of Person objects using the binary search algorithm.
